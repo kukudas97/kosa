@@ -1,0 +1,42 @@
+
+12월 07, 2022 16:51:38.25 NEW SESSION
+12월 07, 2022 16:51:38.25 [3896:12956:1207/165138.252:ERROR:device_event_log_impl.cc(215)] [16:51:38.253] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 07, 2022 16:51:38.26 [3896:12956:1207/165138.252:ERROR:device_event_log_impl.cc(215)] [16:51:38.253] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 07, 2022 16:51:44.36 [3896:3120:1207/165144.359:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 16:52:12.66 [3896:3120:1207/165212.658:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 16:52:35.80 [3896:10788:1207/165235.796:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+12월 07, 2022 16:53:13.25 [3896:3120:1207/165313.246:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 16:54:28.91 [22856:5272:1207/165428.906:ERROR:device_event_log_impl.cc(215)] [16:54:28.906] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 07, 2022 16:54:28.93 [22856:5272:1207/165428.907:ERROR:device_event_log_impl.cc(215)] [16:54:28.907] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 07, 2022 16:54:35.06 [22856:19496:1207/165435.053:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 16:55:04.39 [22856:19496:1207/165504.383:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 16:55:26.57 [22856:10472:1207/165526.557:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+12월 07, 2022 16:55:59.99 [22856:19496:1207/165559.987:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 16:57:44.15 [22856:19496:1207/165744.147:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 16:59:15.68 [22856:5272:1207/165915.678:ERROR:device_event_log_impl.cc(215)] [16:59:15.677] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+12월 07, 2022 16:59:21.53 [22856:19496:1207/165921.526:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 16:59:35.86 [22856:19496:1207/165935.826:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 16:59:42.92 [22856:19496:1207/165942.923:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 16:59:45.93 [22856:19496:1207/165945.921:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:00:06.08 [22856:19496:1207/170006.070:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:00:21.42 [22856:19496:1207/170021.422:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:00:53.41 [22856:19496:1207/170053.405:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -118
+12월 07, 2022 17:02:02.81 [22856:19496:1207/170202.790:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 07, 2022 17:02:18.14 [22856:19496:1207/170218.122:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:02:22.54 [22856:19496:1207/170222.536:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:14:30.92 [22856:19496:1207/171430.921:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:15:45.91 [22856:19496:1207/171545.904:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -118
+12월 07, 2022 17:15:49.49 [22856:14284:1207/171549.482:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+12월 07, 2022 17:24:17.00 [22856:19496:1207/171828.949:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 07, 2022 17:24:17.05 [22856:19496:1207/172416.987:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -7
+12월 07, 2022 17:24:29.13 [22856:19496:1207/172429.124:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:25:20.85 [22856:19496:1207/172520.838:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:27:25.55 [22856:19496:1207/172725.543:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:31:00.76 [22856:19496:1207/173100.761:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:31:06.95 [22856:19496:1207/173106.950:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:31:10.47 [22856:19496:1207/173110.468:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:31:25.00 [22856:19496:1207/173124.998:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+12월 07, 2022 17:32:17.70 [22856:19496:1207/173217.672:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 07, 2022 17:32:19.77 [22856:19496:1207/173219.766:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:32:25.94 [22856:19496:1207/173225.935:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 07, 2022 17:32:29.47 [22856:19496:1207/173229.470:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105

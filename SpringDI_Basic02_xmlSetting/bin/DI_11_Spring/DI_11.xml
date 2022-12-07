@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<!-- 
+		1단계)
+			필요한 모든 bean 객체를 생성해라 ( new 자원 모두 bean 생성 )
+		2단계)
+			사용자가 직접 만들지 않은 객체(JAVA API) >> Spring이 제공 해줌
+			>>xml 설정에서는 element 제공
+				>> <list> , <map> , <set>
+	 -->
+	 <!-- 
+		1. DataSourceFactory 빈객체
+		2. jdbc.properties 파일을 read
+		3. DataSourceFactory setter 함수를 통해 read한 value주입
+		
+		KEY POINT
+		xml설정 파일에서 특정 [파일]을 read할려면 Spring 제공하는 Context자원 사용
+		
+		xmlns:context="http://www.springframework.org/schema/context"
+		context 접두어를 가지고 사용가능
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-4.3.xsd
+	  -->
+	<context:property-placeholder location="classpath:DI_11_Spring/jdbc.properties"/>
+	<bean id="dataSourceFactory" class="DI_11_Spring.DataSourceFactory">
+		<property name="jdbcdriver" value="${jdbc.driver}"></property>
+		<property name="jdbcurl" value="${jdbc.url}"></property>
+		<property name="username" value="${jdbc.username}"></property>
+		<property name="password" value="${jdbc.password}"></property>
+	</bean>
+
+</beans>

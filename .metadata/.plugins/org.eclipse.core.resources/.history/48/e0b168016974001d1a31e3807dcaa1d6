@@ -1,0 +1,16 @@
+package DI2;
+
+public class NewRecordView {
+	
+	private NewRecord record; //포함관계(복합연관)
+
+
+	//setter 함수를 통해서 필요한 객체의 주소를 받기
+	public void setRecord(NewRecord record) {
+		this.record = record;
+	}
+	
+	public void Print() {
+		System.out.println(record.total() + "/" + record.avg());
+	}
+}

@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+C:\kosa_IT\Spring\Labs\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+151054686.index
+2454569835.index
+969968605.index
+3537165939.index
+743450973.index
+1521069296.index
+2274176937.index
+1195653443.index
+1006941328.index
+4122779859.index
