@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="sample"/>
 <aop-project name="SpringMVC_Basic01_Controller"/>
+<aop-project name="sample"/>
+<aop-project name="BoardProject"/>
 </aop-reference-model>
