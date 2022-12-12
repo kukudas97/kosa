@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>SpringMVC_Basic05_JdbcTemplate</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <!--  
+     Root Container(ApplicationContext)
+     listener 를 통해서 web.xml 실행시 가장 먼저 실행
+     applicationContext.xml > IOC DI 구성 파일로 (공통빈 : 다른 IOC 컨테이너 참조하는 Bean 구성)
+     org.springframework.web.context.ContextLoaderListener
+  -->
+  <listener><!-- 루트 컨테이너를 사용하겠다고 선언 -->
+     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  <context-param>
+     <param-name>contextConfigLocation</param-name><!-- 약속된 이름 -->
+     <param-value>/WEB-INF/applicationContext.xml</param-value><!-- 루트 컨테이너를 구성할 xml -->
+  </context-param>
+  
+  <servlet>
+      <servlet-name>dispatcher</servlet-name>
+      <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+     <!-- <init-param>
+       <param-name>contextConfigLocation</param-name>
+       <param-value>
+           classpath:/WEB-INF/servlet.xml
+           classpath:/WEB-INF/base2.xml
+       </param-value>
+       </init-param> -->
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>dispatcher</servlet-name>
+     <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+  <!-- DI 구성하는 xml 파일 : [servlet이름]-servlet.xml  -->
+  
+  <!-- Filter 사용한 한글 처리 
+  org.springframework.web.filter.CharacterEncodingFilter
+  -->
+  <filter><!-- 필터 생성 -->
+     <filter-name>EncodingFilter</filter-name> <!-- 이름은 자유 -->
+     <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class><!-- 필터 클래스 -->
+     <init-param>
+        <param-name>encoding</param-name>
+        <param-value>UTF-8</param-value>
+     </init-param>
+  </filter>
+  <filter-mapping><!-- 필터 매핑 -->
+     <filter-name>EncodingFilter</filter-name> <!-- 적용할 필터 이름 -->
+     <url-pattern>/*</url-pattern><!-- 적용할 범위 -->
+  </filter-mapping>
+</web-app>
