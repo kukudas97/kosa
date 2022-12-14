@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\kosa_IT\Spring\Framework\spring-framework-5.3.6\libs"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\kosa_IT\DataBase\JDBC\ConnectUtils\Oracle"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>

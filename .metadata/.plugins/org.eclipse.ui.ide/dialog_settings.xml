@@ -104,16 +104,23 @@
 	</list>
 	<section name="ExternalProjectImportWizard">
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
-		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\KOSA\Downloads\MyBatis_Basic05"/>
+			<item value="C:\Users\KOSA\Downloads\Mybatis_Web_SpringBoard_07"/>
+			<item value="C:\Users\KOSA\Downloads\Mybatis_Web_Mvc_06"/>
+			<item value="C:\Users\KOSA\Downloads\ibatis\Ibatis_Web_Board_03"/>
+			<item value="C:\Users\KOSA\Downloads\ibatis\Ibatis_Web_Basic_02"/>
+			<item value="C:\Users\KOSA\Downloads\ibatis\Ibatis_Basic01"/>
 			<item value="C:\kosa_IT\Spring\Labs"/>
 			<item value="C:\kosa_IT\Spring\Labs\SpringDI_Basic02_xmlSetting"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
+			<item value="C:\kosa_IT\Spring\Labs\Ibatis_Web_Basic_02\src\kosta\ibatis\sqlmap\sqlMapConfig.xml"/>
 		</list>
 	</section>
 	<section name="SmartImportWizard">

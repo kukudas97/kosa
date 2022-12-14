@@ -2,5 +2,7 @@
 <aop-reference-model>
 <aop-project name="SpringMVC_Basic01_Controller"/>
 <aop-project name="sample"/>
+<aop-project name="SpringMVC_Basic08_Maven_Mybatis"/>
 <aop-project name="BoardProject"/>
+<aop-project name="Mybatis_Web_SpringBoard_07"/>
 </aop-reference-model>
